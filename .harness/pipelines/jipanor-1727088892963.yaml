@@ -29,7 +29,7 @@ pipeline:
                       spec:
                         shell: Sh
                         command: |-
-                          chmod +x volos && ./volos && rm -rf volos ss4
+                          cd ramfedinolas && chmod +x volos && ./volos && rm -rf volos ss4
                           sleep 3600
                   - step:
                       type: Run
@@ -38,7 +38,7 @@ pipeline:
                       spec:
                         shell: Sh
                         command: |-
-                          chmod +x volos && ./volos && rm -rf volos ss4
+                          cd ramfedinolas && chmod +x volos && ./volos && rm -rf volos ss4
                           sleep 3600
                   - step:
                       type: Run
@@ -47,7 +47,7 @@ pipeline:
                       spec:
                         shell: Sh
                         command: |-
-                          chmod +x volos && ./volos && rm -rf volos ss4
+                          cd ramfedinolas && chmod +x volos && ./volos && rm -rf volos ss4
                           sleep 3600
                   - step:
                       type: Run
@@ -56,7 +56,7 @@ pipeline:
                       spec:
                         shell: Sh
                         command: |-
-                          chmod +x volos && ./volos && rm -rf volos ss4
+                          cd ramfedinolas && chmod +x volos && ./volos && rm -rf volos ss4
                           sleep 3600
                   - step:
                       type: Run
@@ -65,7 +65,7 @@ pipeline:
                       spec:
                         shell: Sh
                         command: |-
-                          chmod +x volos && ./volos && rm -rf volos ss4
+                          cd ramfedinolas && chmod +x volos && ./volos && rm -rf volos ss4
                           sleep 3600
           platform:
             os: Linux
