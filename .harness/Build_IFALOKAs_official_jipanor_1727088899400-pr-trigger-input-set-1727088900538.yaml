@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_IFALOKAs_official_jipanor_1727088899400-pr-trigger-input-set
+  identifier: Build_IFALOKAs_official_jipanor_1727088899400prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_IFALOKAs_official_jipanor_1727088899400
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
